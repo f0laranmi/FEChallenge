@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainboxA{
+    width: 20rem;
+    height: 27rem;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.419);
+    text-align: center;
+    padding: 2rem;
+}
+.mainboxB{
+    width: 20rem;
+    height: 27rem;
+    background-color: white;
+    border-radius: 25px;
+}
+.mainboxAcircle{
+    background-color: rgba(43, 10, 141, 0.785);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    /* line-height: 70px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.heading h2{
+    padding-bottom: 2rem;
+}
+.mainboxAcircle h1{
+    /* margin-top: 1rem; */
+    font-size: 3.5rem;
+    text-align: center;
+}
+.mainboxAcircle p{
+    font-size: 1rem
+    padding-bottom: 9rem;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    align-items: center;
+    margin: auto;
+}
+.listB li{
+    list-style-type: none;
+}
+
